@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="0.0" y="594.0">com.company.CarApp</node>
+    <node x="486.0" y="0.0">com.company.Person</node>
+    <node x="274.0" y="251.0">com.company.Employee</node>
+    <node x="17.5" y="0.0">com.company.Vehicle</node>
+    <node x="648.0" y="299.5">com.company.Driver</node>
+    <node x="0.0" y="179.0">com.company.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Driver" target="com.company.Person">
+      <point x="0.0" y="-28.0" />
+      <point x="735.0" y="226.0" />
+      <point x="646.5" y="226.0" />
+      <point x="53.5" y="100.5" />
+    </edge>
+    <edge source="com.company.Car" target="com.company.Vehicle">
+      <point x="0.0" y="-185.0" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="com.company.Employee" target="com.company.Person">
+      <point x="0.0" y="-76.5" />
+      <point x="451.0" y="226.0" />
+      <point x="539.5" y="226.0" />
+      <point x="-53.5" y="100.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="113.0" y="312.0" />
+  <SelectedNodes>
+    <node>com.company.CarApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
